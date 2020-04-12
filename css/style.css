@@ -1,0 +1,255 @@
+/* Reset browser's default settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.8em;
+}
+
+/* Overall styling */
+.container {
+  max-width: 1110px;
+  padding: 0 30px;
+  overflow: auto;
+  margin: auto;
+}
+.lead {
+  font-size: 20px;
+}
+.main-color {
+  color: rgb(248, 116, 82);
+}
+.btn {
+  color: bisque;
+  display: inline-block;
+  padding: 10px 30px;
+  background: rgba(159, 185, 171, 0.4);
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: rgb(233, 197, 188);
+  background: rgba(180, 199, 189, 0.4);
+}
+
+/* Links */
+a {
+  color: seagreen;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 20px;
+}
+p {
+  margin: 10px auto;
+}
+
+.large-heading {
+  font-size: 38px;
+  padding: 2px 0px;
+}
+
+/* Navbar */
+#navbar {
+  background: rgb(84, 97, 84);
+  color: rgb(136, 70, 70);
+  overflow: auto;
+}
+
+#navbar a {
+  color: rgb(255, 245, 231);
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  float: right;
+  list-style: none;
+}
+#navbar ul li {
+  text-decoration: none;
+  display: block;
+  float: left;
+  /* padding: 20px;
+  border: olivedrab 1px solid; */
+}
+#navbar ul li a {
+  padding: 20px;
+  display: block;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  background: rgb(91, 105, 91);
+  color: rgb(248, 116, 82);
+}
+
+/* Main content */
+#showcase {
+  background: url(../images/front.png) no-repeat bottom center/cover;
+  height: 800px;
+}
+#showcase .show-content {
+  color: rgb(2, 34, 5);
+  padding-top: 160px;
+  text-align: center;
+}
+
+#showcase .show-content h1 {
+  font-size: 65px;
+  line-height: 1.2em;
+}
+
+#showcase .show-content p {
+  line-height: 1.5em;
+  padding: 30px 40px;
+  color: rgb(34, 0, 0);
+  background: rgba(243, 243, 243, 0.2);
+}
+
+/* Home information */
+
+#home {
+  height: 400px;
+}
+/* First block */
+div.info-content {
+  float: left;
+  background: rgb(84, 97, 84);
+  color: antiquewhite;
+  width: 50%;
+  height: 100%;
+  padding: 25px 20px;
+  overflow: hidden;
+  text-align: center;
+}
+div.info-content p {
+  padding-bottom: 30px;
+}
+a.read-more {
+  color: bisque;
+  background: rgba(241, 241, 239, 0.2);
+  padding: 15px 25px;
+}
+a.read-more:hover {
+  background: rgb(91, 105, 91);
+  color: rgb(248, 116, 82);
+}
+
+/* Second block */
+div.info-img {
+  float: right;
+  background: url(../images/old-building.png) no-repeat center center/cover;
+  width: 50%;
+  min-height: 100%;
+}
+
+/* Features */
+
+.box {
+  width: 33.3%;
+  float: left;
+  padding-bottom: 30px;
+  text-align: center;
+  background: honeydew;
+}
+.box i {
+  padding: 20px 10px;
+}
+
+.clr {
+  clear: both;
+}
+
+/* Footer */
+#footer-main {
+  background: rgb(166, 204, 174);
+  /* display: inline-block; */
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 20px 30px;
+}
+
+/* ABOUT PAGE */
+#info {
+  padding: 15px 0px;
+}
+
+/* Subsection-1 */
+#info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+div.info-left img {
+  display: block;
+  margin: auto;
+  width: 80%;
+  height: 450px;
+  border-radius: 55%;
+}
+/* Subsection-2 */
+#info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+  text-align: center;
+}
+
+
+/* Second Section */
+#comments{
+  background: url(../images/comments.png) no-repeat center center/cover;
+  height: 600px;
+}
+#comments h1{
+  font-size: 30px;
+  padding-top: 100px;
+  text-align: center;
+
+}
+
+#comments p{
+  text-align: justify;
+  padding: 0px 30px 30px 30px;
+  color: rgb(84, 97, 84);
+  font-size: 17px;
+  
+}
+
+div.person1, div.person2{
+   margin-bottom: 50px;
+   background-color: rgba(245, 245, 220, 0.9);
+   border-radius: 8%;
+  
+}
+div.person1:hover, div.person2:hover{
+  margin-bottom: 20px;
+  background-color: rgb(245, 245, 220);
+  border-radius: 8%;
+ 
+}
+
+#comments img{
+  width: 100px;
+  height: auto;
+  border-radius: 80%;
+  float: left;
+  margin-right: 20px;
+  
+ 
+}
