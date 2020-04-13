@@ -23,25 +23,31 @@ body {
 }
 .main-color {
   color: rgb(248, 116, 82);
+  text-shadow: 4px 2px black;
+  line-height: 1em;
 }
 .btn {
   color: bisque;
   display: inline-block;
-  padding: 10px 30px;
-  background: rgba(159, 185, 171, 0.4);
+  padding: 15px 30px;
+  margin-bottom: 50px;
+  background: rgb(73, 102, 86);
+  font-size: 17px;
   border: none;
+  border-radius: 3px;
   cursor: pointer;
 }
 
 .btn:hover {
-  color: rgb(233, 197, 188);
-  background: rgba(180, 199, 189, 0.4);
+  color: rgb(255, 222, 181);
+  background: rgb(82, 109, 95);
 }
 
 /* Links */
 a {
   color: seagreen;
   text-decoration: none;
+  font-size: 20px;
 }
 
 h1,
@@ -59,6 +65,7 @@ p {
 }
 
 /* Navbar */
+
 #navbar {
   background: rgb(84, 97, 84);
   color: rgb(136, 70, 70);
@@ -82,8 +89,6 @@ p {
   text-decoration: none;
   display: block;
   float: left;
-  /* padding: 20px;
-  border: olivedrab 1px solid; */
 }
 #navbar ul li a {
   padding: 20px;
@@ -162,10 +167,26 @@ div.info-img {
 .box {
   width: 33.3%;
   float: left;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   text-align: center;
   background: honeydew;
+  overflow: hidden;
+  height: auto;
 }
+.box.two {
+  background-color: rgb(248, 116, 82);
+}
+.box.two:hover {
+  background-color: rgb(250, 124, 92);
+  color: rgb(17, 17, 17);
+}
+
+.box.one:hover,
+.box.three:hover {
+  background: rgb(24, 34, 27);
+  color: honeydew;
+}
+
 .box i {
   padding: 20px 10px;
 }
@@ -177,7 +198,6 @@ div.info-img {
 /* Footer */
 #footer-main {
   background: rgb(166, 204, 174);
-  /* display: inline-block; */
   width: 100%;
   height: 100%;
   text-align: center;
@@ -210,46 +230,86 @@ div.info-left img {
   text-align: center;
 }
 
-
 /* Second Section */
-#comments{
+#comments {
   background: url(../images/comments.png) no-repeat center center/cover;
-  height: 600px;
+  height: auto;
 }
-#comments h1{
+#comments h1 {
   font-size: 30px;
   padding-top: 100px;
   text-align: center;
-
 }
 
-#comments p{
+#comments p {
   text-align: justify;
   padding: 0px 30px 30px 30px;
   color: rgb(84, 97, 84);
   font-size: 17px;
-  
 }
 
-div.person1, div.person2{
-   margin-bottom: 50px;
-   background-color: rgba(245, 245, 220, 0.9);
-   border-radius: 8%;
-  
+div.person1,
+div.person2 {
+  margin-bottom: 50px;
+  background-color: rgba(245, 245, 220, 0.9);
+  border-radius: 8%;
 }
-div.person1:hover, div.person2:hover{
-  margin-bottom: 20px;
+div.person1:hover,
+div.person2:hover {
+  margin-bottom: 50px;
   background-color: rgb(245, 245, 220);
   border-radius: 8%;
- 
 }
 
-#comments img{
+#comments img {
   width: 100px;
   height: auto;
   border-radius: 80%;
   float: left;
   margin-right: 20px;
-  
- 
+}
+
+/* Form */
+#main-form {
+  height: 600px;
+  margin-top: 20px;
+}
+#main-form h1,
+p {
+  text-align: center;
+}
+#main-form p {
+  font-size: 17px;
+}
+
+#main-form input,
+#main-form textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+#main-form input:focus,
+#main-form textarea:focus {
+  outline: none;
+  border-color: rgb(179, 192, 185);
+}
+
+#main-form label {
+  display: block;
+  margin-bottom: 13px;
+  font-size: 18px;
+}
+
+div.submit {
+  margin: 10px;
+}
+#features.sub {
+  margin-top: 60px;
+  overflow: auto;
+}
+
+button.btn {
+  padding: 20px 60px;
 }
