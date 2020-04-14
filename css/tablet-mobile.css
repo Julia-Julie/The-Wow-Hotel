@@ -1,0 +1,72 @@
+@media screen and (max-width: 768px) {
+  /* Overall */
+
+  /* Navbar */
+
+  #navbar h1,
+  #navbar ul,
+  #navbar ul li {
+    float: none;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  #navbar ul li {
+    border-bottom: 1px solid rgb(117, 117, 117);
+  }
+
+  /* Home infornation */
+  section#home div.info-content {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  section#home div.info-img {
+    display: none;
+  }
+
+  #showcase div.show-content a.btn {
+    margin-top: 4rem;
+  }
+
+  .info-content .read-more {
+    line-height: 1rem;
+  }
+
+  div.box {
+    /* display: none; */
+    float: none;
+    width: 100%;
+  }
+
+  /* About page */
+
+  #info div.info-left {
+    float: none;
+    width: 100%;
+    min-height: 100%;
+    margin-bottom: 1.2rem;
+  }
+  #info div.info-left img {
+    width: 50%;
+    height: 50%;
+  }
+
+  #info div.info-right {
+    float: none;
+    width: 100%;
+    min-height: 100%;
+    text-align: center;
+  }
+
+  /* Contact page */
+  #main-form div.submit button.btn {
+    margin-bottom: 50px;
+  }
+
+  section#features.sub {
+    margin-top: 80px;
+  }
+}
